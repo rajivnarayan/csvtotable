@@ -124,6 +124,7 @@ def render_template(table_headers, table_items, **options):
         "sScrollX": "100%",
         "sScrollXInner": "100%",
         "order": [],
+        "processing" : true,
     }
 
     # Enable virtual scroll for rows bigger than 1000 rows
